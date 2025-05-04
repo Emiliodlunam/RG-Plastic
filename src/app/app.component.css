@@ -1,0 +1,63 @@
+.site-header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del logo y el título */
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado entre el logo y el título */
+}
+
+/* Estilo del logo */
+.logo img {
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* Estilo del título */
+.site-title {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Navegación */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #4CAF50;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.site-footer p {
+    margin: 0.2rem 0;
+}

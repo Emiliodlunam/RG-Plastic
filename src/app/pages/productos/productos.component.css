@@ -1,0 +1,131 @@
+/* Encabezado de la sección de productos */
+.productos-header {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 2rem;
+}
+.productos-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.productos-header p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Estructura base de cada sección de producto */
+.producto-seccion {
+  margin: 2rem auto;
+  max-width: 1200px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+}
+
+/* Hero de cada producto */
+.producto-hero {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.producto-hero h3 {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+}
+.producto-hero p {
+  margin: 0.2rem 0;
+  font-size: 1.1rem;
+}
+
+/* Colores diferenciados para cada hero */
+.negro-hero {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.virgen-hero {
+  background-color: #d6ecea;
+  color: #333;
+}
+.bolsa-hero {
+  background-color: #fae5d3;
+  color: #333;
+}
+
+/* Distribución de contenido */
+.producto-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 0 1rem;
+}
+
+/* Texto descriptivo */
+.producto-descripcion {
+  flex: 1.5;
+  min-width: 280px;
+}
+.producto-descripcion h4 {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+}
+.producto-descripcion p {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+.producto-descripcion h5 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+.casos-de-uso h6 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+  color: #4CAF50; /* Verde para destacar */
+}
+.casos-de-uso ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+.casos-de-uso li {
+  margin: 0.3rem 0;
+}
+
+/* Imagen referencial */
+.producto-imagen {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+.producto-imagen img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Presentaciones */
+.presentaciones-section {
+  text-align: center;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+.presentaciones-section h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.presentaciones-list {
+  list-style-type: square;
+  display: inline-block;
+  text-align: left;
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+.presentaciones-list li {
+  margin: 0.5rem 0;
+}
+.link-contacto {
+  color: #4CAF50;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.link-contacto:hover {
+  color: #388e3c;
+}

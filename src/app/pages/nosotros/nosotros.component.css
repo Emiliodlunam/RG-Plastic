@@ -1,0 +1,21 @@
+.nosotros-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nosotros-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.nosotros-section img {
+  flex: 1;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 8px;
+}

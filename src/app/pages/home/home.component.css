@@ -1,0 +1,97 @@
+/* Hero */
+.hero {
+  background: url('../../../assets/fondo.webp')
+    no-repeat center center / cover;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.hero-overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+  margin-top: 1rem;
+}
+
+/* Sección Introducción */
+.section-intro {
+  padding: 2rem;
+  text-align: center;
+}
+.section-intro h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.section-intro p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0.5rem auto;
+  line-height: 1.5;
+}
+
+/* Productos Destacados */
+.destacados-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+.destacado-card {
+  flex: 1;
+  min-width: 280px;
+  max-width: 320px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 1rem;
+}
+.destacado-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.destacado-card h3 {
+  margin-bottom: 0.5rem;
+}
+.destacado-card p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* Sección Confianza */
+.confianza-section {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.confianza-section h2 {
+  margin-bottom: 1rem;
+}
+.confianza-section p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}

@@ -1,0 +1,92 @@
+/* ==== Sección Hero / Encabezado ==== */
+.sustentabilidad-hero {
+  background: url('../../../assets/sust.webp')
+    no-repeat center center/cover; /* Cambia a tu imagen de fondo, o elimina si no quieres un BG */
+  position: relative;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sustentabilidad-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* oscurece un poco para el texto */
+  color: #fff;
+  padding: 2rem;
+  max-width: 800px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.sustentabilidad-overlay h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.sustentabilidad-overlay p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* ==== Sección "Nuestro Proceso" ==== */
+.nuestro-proceso-section {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nuestro-proceso-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+/* Imagen principal del proceso (opcional) */
+.proceso-imagen-principal {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.proceso-imagen-principal img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+/* Grid de pasos */
+.proceso-pasos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+/* Tarjeta para cada paso */
+.paso-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.paso-numero {
+  width: 40px;
+  height: 40px;
+  background-color: #4CAF50; /* un verde, por ejemplo */
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+.paso-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.paso-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
